@@ -1,0 +1,178 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e756f8ba765132469de9a6902ac4876, type: 3}
+  m_Name: PlantSO
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 21300000, guid: 19fd8dad5f0ff1348b946933b0a06c96, type: 3}
+    - {fileID: 21300000, guid: 9b9840a56f408714685bef78a3907189, type: 3}
+    - {fileID: 21300000, guid: 0faf5a58d28b3f14f96c9b499772ad0e, type: 3}
+    - {fileID: 21300000, guid: 4e240adf8b376494bafc8274828e96ff, type: 3}
+    - {fileID: 21300000, guid: 6b9a715ccd08c1745a3ea9c3e8831482, type: 3}
+    - {fileID: 21300000, guid: 7e6a59622858a854ab6ddeb5521f5a8e, type: 3}
+    - {fileID: 21300000, guid: a573b9d23f07fe04dbc64201db326d53, type: 3}
+    - {fileID: 21300000, guid: 53f02d2960a44cc448747ba2d117f42d, type: 3}
+    - {fileID: 21300000, guid: d2a5f70f5da3bdb47857693f7c8c4d49, type: 3}
+    - {fileID: 21300000, guid: 16c2a022a44b79f46803edf16a9d84d6, type: 3}
+    - {fileID: 21300000, guid: 60ec7f383de8b6a4ea3baa359bcd3790, type: 3}
+    - {fileID: 21300000, guid: 269344a9efa1e9349b1a2b58ac0e57ae, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: data
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[PlantType, Assembly-CSharp],[PlantResData,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[PlantType, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 7
+      Data: 2|PlantResData, Assembly-CSharp
+    - Name: plantName
+      Entry: 1
+      Data: "\u756A\u8304"
+    - Name: growTime
+      Entry: 4
+      Data: 15
+    - Name: ripeTime
+      Entry: 4
+      Data: 15
+    - Name: price
+      Entry: 3
+      Data: 1
+    - Name: seedSprite
+      Entry: 10
+      Data: 0
+    - Name: growSprite
+      Entry: 10
+      Data: 1
+    - Name: ripeSprite
+      Entry: 10
+      Data: 2
+    - Name: plantSprite
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 7
+      Data: 3|PlantResData, Assembly-CSharp
+    - Name: plantName
+      Entry: 1
+      Data: "\u571F\u8C46"
+    - Name: growTime
+      Entry: 4
+      Data: 15
+    - Name: ripeTime
+      Entry: 4
+      Data: 15
+    - Name: price
+      Entry: 3
+      Data: 2
+    - Name: seedSprite
+      Entry: 10
+      Data: 4
+    - Name: growSprite
+      Entry: 10
+      Data: 5
+    - Name: ripeSprite
+      Entry: 10
+      Data: 6
+    - Name: plantSprite
+      Entry: 10
+      Data: 7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 7
+      Data: 4|PlantResData, Assembly-CSharp
+    - Name: plantName
+      Entry: 1
+      Data: "\u68C9\u82B1"
+    - Name: growTime
+      Entry: 4
+      Data: 15
+    - Name: ripeTime
+      Entry: 4
+      Data: 15
+    - Name: price
+      Entry: 3
+      Data: 3
+    - Name: seedSprite
+      Entry: 10
+      Data: 8
+    - Name: growSprite
+      Entry: 10
+      Data: 9
+    - Name: ripeSprite
+      Entry: 10
+      Data: 10
+    - Name: plantSprite
+      Entry: 10
+      Data: 11
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 

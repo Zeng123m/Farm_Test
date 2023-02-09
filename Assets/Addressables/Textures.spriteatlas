@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Textures
+  serializedVersion: 2
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 4096
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 100
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 5b425becef6fcbf45ae9ed0c68c961b0, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 420812216ff33d24daceb1aaca8b9fd4, type: 3}
+  - {fileID: 21300000, guid: 16c2a022a44b79f46803edf16a9d84d6, type: 3}
+  - {fileID: 21300000, guid: 7e6a59622858a854ab6ddeb5521f5a8e, type: 3}
+  - {fileID: 21300000, guid: 3a90dd621913334489fffff3d53c86bf, type: 3}
+  - {fileID: 21300000, guid: 9c97b1d2c22a9b949a07c0b9b86b8265, type: 3}
+  - {fileID: 21300000, guid: a573b9d23f07fe04dbc64201db326d53, type: 3}
+  - {fileID: 21300000, guid: 831bfef2e4111de4ab26c1272a410f96, type: 3}
+  - {fileID: 21300000, guid: 43964a03467077c449849d8a75eb471c, type: 3}
+  - {fileID: 21300000, guid: a1582783d9497be438621a4b6f3831fd, type: 3}
+  - {fileID: 21300000, guid: 9b9840a56f408714685bef78a3907189, type: 3}
+  - {fileID: 21300000, guid: 62ceebe5265a9274ba9770f690f13cf7, type: 3}
+  - {fileID: 21300000, guid: 1fe7de9694ee549438ba0e8c60047663, type: 3}
+  - {fileID: 21300000, guid: 106dfda6969c478419ba5a651daffbbf, type: 3}
+  - {fileID: 21300000, guid: 1f17dbd7ab20de34f93c78fdf9bd0c4a, type: 3}
+  - {fileID: 21300000, guid: ade1421850e278844b29d956622319f3, type: 3}
+  - {fileID: 21300000, guid: 1a167a28f98890e459e0d30b3b509887, type: 3}
+  - {fileID: 21300000, guid: 60ec7f383de8b6a4ea3baa359bcd3790, type: 3}
+  - {fileID: 21300000, guid: 0faf5a58d28b3f14f96c9b499772ad0e, type: 3}
+  - {fileID: 21300000, guid: 74023788ef2be5143bc4014a92d95f2b, type: 3}
+  - {fileID: 21300000, guid: aedf188881770144c984fa3e4e9a0367, type: 3}
+  - {fileID: 21300000, guid: 53f02d2960a44cc448747ba2d117f42d, type: 3}
+  - {fileID: 21300000, guid: 269344a9efa1e9349b1a2b58ac0e57ae, type: 3}
+  - {fileID: 21300000, guid: d493454ae33a16945a614291aa490e9e, type: 3}
+  - {fileID: 21300000, guid: bad2855afb269aa4d81a02cea1d19b87, type: 3}
+  - {fileID: 21300000, guid: 0bbdb0eabc348804a877aa75d55fd6ab, type: 3}
+  - {fileID: 21300000, guid: bd21169b157f0c6479c871e654720334, type: 3}
+  - {fileID: 21300000, guid: 2f1d0bfbc306d9a44a8093c960205d47, type: 3}
+  - {fileID: 21300000, guid: 6b9a715ccd08c1745a3ea9c3e8831482, type: 3}
+  - {fileID: 21300000, guid: d39ba38cb0137204a9bd4ac9ac1ef890, type: 3}
+  - {fileID: 21300000, guid: 8fa3968c9463f9b46bf1d96d44441c0c, type: 3}
+  - {fileID: 21300000, guid: 3b2fc2fced115464a80a7b2bdd23d32c, type: 3}
+  - {fileID: 21300000, guid: 6a8bd22d74835854f96eeb6cd2d10927, type: 3}
+  - {fileID: 21300000, guid: e71fb3ad46067bb41ac5ba7e59d1c648, type: 3}
+  - {fileID: 21300000, guid: 19fd8dad5f0ff1348b946933b0a06c96, type: 3}
+  - {fileID: 21300000, guid: f84d73cdaabcf9647908b8ca221bc797, type: 3}
+  - {fileID: 21300000, guid: d2a5f70f5da3bdb47857693f7c8c4d49, type: 3}
+  - {fileID: 21300000, guid: 9691752ffc88ebf429436671f4be7c02, type: 3}
+  - {fileID: 21300000, guid: 4e240adf8b376494bafc8274828e96ff, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Board_1
+  - Cotton_1
+  - Potato_1
+  - Field_Outline
+  - ToSell
+  - Potato_2
+  - Barn
+  - Add
+  - LevelUp
+  - Tomato_1
+  - Coin
+  - Plants
+  - Remove
+  - Board
+  - Select
+  - Box
+  - Cotton_2
+  - Tomato_2
+  - Scarecrow
+  - Windmill
+  - Potato_3
+  - Cotton_3
+  - People
+  - FieldButton
+  - Field
+  - Handle
+  - Shop
+  - Potato_0
+  - Slider
+  - Dryer
+  - Reap
+  - Close
+  - Box_1
+  - Tomato_0
+  - Goods
+  - Cotton_0
+  - Sprinkler
+  - Tomato_3
+  m_RenderDataMap: {}
+  m_Tag: Textures
+  m_IsVariant: 0
+  m_IsPlaceholder: 0
