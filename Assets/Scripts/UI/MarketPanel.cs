@@ -1,11 +1,11 @@
-using Sirenix.OdinInspector;
+ï»¿using Sirenix.OdinInspector;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 /// <summary>
-/// ³¬ÊĞ½çÃæ
+/// è¶…å¸‚ç•Œé¢
 /// </summary>
 public class MarketPanel : MonoBehaviour, IPanel
 {
@@ -15,18 +15,18 @@ public class MarketPanel : MonoBehaviour, IPanel
 	List<MarketItemUI> marketItemUis = new List<MarketItemUI>();
 	PlantSO PlantSO { get { return GameController.Instance.plantSO; } }
 	/// <summary>
-	/// ³ö»õÊı
+	/// å‡ºè´§æ•°
 	/// </summary>
 	public Text sellCountText;
 	int levelUpNeedCoin = 100;
-	[Title("Éı¼¶")]
+	[Title("å‡çº§")]
 	public Text levelText;
 	/// <summary>
-	/// ÂÌÖ²ÊıÁ¿
+	/// ç»¿æ¤æ•°é‡
 	/// </summary>
 	public Text plantsCountText;
 	/// <summary>
-	/// »õ¼ÜÊıÁ¿
+	/// è´§æ¶æ•°é‡
 	/// </summary>
 	public Text shelveCountText;
 	public Button levelUpButton;
@@ -66,7 +66,7 @@ public class MarketPanel : MonoBehaviour, IPanel
 	}
 
 	/// <summary>
-	/// Ë¢ĞÂ½çÃæ
+	/// åˆ·æ–°ç•Œé¢
 	/// </summary>
 	public void RefreshPanel()
 	{
@@ -94,9 +94,9 @@ public class MarketPanel : MonoBehaviour, IPanel
 		shelveLevelUpButton.gameObject.SetActive(GameController.Instance.marketManager.CanShelveLevelUp());
 	}
 
-	#region °´¼ü
+	#region æŒ‰é”®
 	/// <summary>
-	/// Éı¼¶
+	/// å‡çº§
 	/// </summary>
 	void OnLevelUpButtonClick()
 	{
@@ -109,12 +109,12 @@ public class MarketPanel : MonoBehaviour, IPanel
 		}
 		else
 		{
-			UiManager.Instance.AddGameText(string.Format("½ğ±Ò²»×ã({0}/{1})", GameController.Instance.playerData.coin.ToString(), needCoin.ToString()));
+			UiManager.Instance.AddGameText(string.Format("é‡‘å¸ä¸è¶³({0}/{1})", GameController.Instance.playerData.coin.ToString(), needCoin.ToString()));
 		}
 	}
 
 	/// <summary>
-	/// ÂÌÖ²Éı¼¶
+	/// ç»¿æ¤å‡çº§
 	/// </summary>
 	void OnPlantsLevelUpButtonClick()
 	{
@@ -127,12 +127,12 @@ public class MarketPanel : MonoBehaviour, IPanel
 		}
 		else
 		{
-			UiManager.Instance.AddGameText(string.Format("½ğ±Ò²»×ã({0}/{1})", GameController.Instance.playerData.coin.ToString(), needCoin.ToString()));
+			UiManager.Instance.AddGameText(string.Format("é‡‘å¸ä¸è¶³({0}/{1})", GameController.Instance.playerData.coin.ToString(), needCoin.ToString()));
 		}
 	}
 
 	/// <summary>
-	/// »õ¼ÜÉı¼¶
+	/// è´§æ¶å‡çº§
 	/// </summary>
 	void OnShelveLevelUpButtonClick()
 	{
@@ -145,7 +145,7 @@ public class MarketPanel : MonoBehaviour, IPanel
 		}
 		else
 		{
-			UiManager.Instance.AddGameText(string.Format("½ğ±Ò²»×ã({0}/{1})", GameController.Instance.playerData.coin.ToString(), needCoin.ToString()));
+			UiManager.Instance.AddGameText(string.Format("é‡‘å¸ä¸è¶³({0}/{1})", GameController.Instance.playerData.coin.ToString(), needCoin.ToString()));
 		}
 	}
 	#endregion

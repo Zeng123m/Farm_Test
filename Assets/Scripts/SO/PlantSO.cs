@@ -1,10 +1,10 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Sirenix.OdinInspector;
 
 /// <summary>
-/// Ö²ÎïÅäÖÃÊı¾İ
+/// æ¤ç‰©é…ç½®æ•°æ®
 /// </summary>
 [CreateAssetMenu(fileName = "PlantSO", menuName = "SO/PlantSO")]
 public class PlantSO : SerializedScriptableObject
@@ -13,41 +13,41 @@ public class PlantSO : SerializedScriptableObject
 }
 
 /// <summary>
-/// Ö²Îï×ÊÔ´Êı¾İ
+/// æ¤ç‰©èµ„æºæ•°æ®
 /// </summary>
 [System.Serializable]
 public class PlantResData
 {
 	/// <summary>
-	/// Ãû×Ö
+	/// åå­—
 	/// </summary>
 	public string plantName;
 	/// <summary>
-	/// Éú³¤ËùĞèÊ±¼ä
+	/// ç”Ÿé•¿æ‰€éœ€æ—¶é—´
 	/// </summary>
 	public float growTime;
 	/// <summary>
-	/// ³ÉÊìËùĞèÊ±¼ä
+	/// æˆç†Ÿæ‰€éœ€æ—¶é—´
 	/// </summary>
 	public float ripeTime;
 	/// <summary>
-	/// ³öÊÛ¼Û¸ñ
+	/// å‡ºå”®ä»·æ ¼
 	/// </summary>
 	public int price;
 	/// <summary>
-	/// ÖÖ×ÓÍ¼
+	/// ç§å­å›¾
 	/// </summary>
 	public Sprite seedSprite;
 	/// <summary>
-	/// ³É³¤Í¼
+	/// æˆé•¿å›¾
 	/// </summary>
 	public Sprite growSprite;
 	/// <summary>
-	/// ³ÉÊìÍ¼
+	/// æˆç†Ÿå›¾
 	/// </summary>
 	public Sprite ripeSprite;
 	/// <summary>
-	/// ¹ûÊµÍ¼
+	/// æœå®å›¾
 	/// </summary>
 	public Sprite plantSprite;
 }

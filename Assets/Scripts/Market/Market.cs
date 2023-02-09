@@ -1,9 +1,9 @@
-using System.Collections;
+锘縰sing System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// 超市
+/// 瓒呭競
 /// </summary>
 [System.Serializable]
 public class Market
@@ -12,7 +12,7 @@ public class Market
 	public MarketData data;
 
 	/// <summary>
-	/// 获取售出数量
+	/// 鑾峰彇鍞嚭鏁伴噺
 	/// </summary>
 	/// <returns></returns>
 	public int GetSellCount()
@@ -21,7 +21,7 @@ public class Market
 	}
 
 	/// <summary>
-	/// 添加物品
+	/// 娣诲姞鐗╁搧
 	/// </summary>
 	/// <param name="plantType"></param>
 	/// <param name="addCount"></param>
@@ -61,7 +61,7 @@ public class Market
 	}
 
 	/// <summary>
-	/// 移除物品
+	/// 绉婚櫎鐗╁搧
 	/// </summary>
 	/// <param name="plantType"></param>
 	/// <param name="removeCount"></param>

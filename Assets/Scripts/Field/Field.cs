@@ -1,11 +1,11 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.Events;
 
 /// <summary>
-/// ÍÁµØ
+/// åœŸåœ°
 /// </summary>
 public class Field : MonoBehaviour
 {
@@ -15,7 +15,7 @@ public class Field : MonoBehaviour
 	public UnityAction<Field> onRipe;
 
 	/// <summary>
-	/// »ñÈ¡Ö²ÎïÉú³¤ÊıÖµ
+	/// è·å–æ¤ç‰©ç”Ÿé•¿æ•°å€¼
 	/// </summary>
 	/// <returns></returns>
 	public float GetPlantGrowValue()
@@ -47,7 +47,7 @@ public class Field : MonoBehaviour
 	}
 
 	/// <summary>
-	/// ÉèÖÃÖ²Îï
+	/// è®¾ç½®æ¤ç‰©
 	/// </summary>
 	/// <param name="plantType"></param>
 	public void SetPlant(PlantType plantType)
@@ -69,7 +69,7 @@ public class Field : MonoBehaviour
 	}
 
 	/// <summary>
-	/// Çå³ıÖ²Îï
+	/// æ¸…é™¤æ¤ç‰©
 	/// </summary>
 	public void ClearPlant()
 	{
@@ -82,7 +82,7 @@ public class Field : MonoBehaviour
 	}
 
 	/// <summary>
-	/// µã»÷Ïà¹Ø¹¦ÄÜ
+	/// ç‚¹å‡»ç›¸å…³åŠŸèƒ½
 	/// </summary>
 	private void OnMouseUpAsButton()
 	{
@@ -94,7 +94,7 @@ public class Field : MonoBehaviour
 	}
 
 	/// <summary>
-	/// ÊÕ¸î
+	/// æ”¶å‰²
 	/// </summary>
 	public void Reap()
 	{
@@ -106,17 +106,17 @@ public class Field : MonoBehaviour
 		bool isSuccess = GameController.Instance.barnManager.TryAddItem(plant.plantType, resCount);
 		if (isSuccess)
 		{
-			UiManager.Instance.AddGameText(string.Format("ÊÕ»ñ{0}: {1}", plant.plantName, resCount.ToString()));
+			UiManager.Instance.AddGameText(string.Format("æ”¶è·{0}: {1}", plant.plantName, resCount.ToString()));
 			ClearPlant();
 		}
 		else
 		{
-			UiManager.Instance.AddGameText("²Ö¿â·Å²»ÏÂÁË");
+			UiManager.Instance.AddGameText("ä»“åº“æ”¾ä¸ä¸‹äº†");
 		}
 	}
 
 	/// <summary>
-	/// »ñÈ¡ÊÕ¸î×ÊÔ´Êı
+	/// è·å–æ”¶å‰²èµ„æºæ•°
 	/// </summary>
 	/// <returns></returns>
 	int GetResCount()
@@ -128,7 +128,7 @@ public class Field : MonoBehaviour
 	int maxScarecrow = 2;
 	int maxSprinkler = 4;
 	/// <summary>
-	/// Éı¼¶
+	/// å‡çº§
 	/// </summary>
 	public void LevelUp()
 	{
@@ -139,7 +139,7 @@ public class Field : MonoBehaviour
 	}
 
 	/// <summary>
-	/// µ¾²İÈËÉı¼¶
+	/// ç¨»è‰äººå‡çº§
 	/// </summary>
 	public void ScarecrowLevelUp()
 	{
@@ -150,7 +150,7 @@ public class Field : MonoBehaviour
 	}
 
 	/// <summary>
-	/// ÅçË®Æ÷Éı¼¶
+	/// å–·æ°´å™¨å‡çº§
 	/// </summary>
 	public void SprinklerLevelUp()
 	{

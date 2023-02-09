@@ -1,32 +1,32 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 
 /// <summary>
-/// ÓÎÏ·×Ü¿ØÖÆ
+/// æ¸¸æˆæ€»æ§åˆ¶
 /// </summary>
 public class GameController : MonoBehaviour
 {
 	public static GameController Instance;
 	/// <summary>
-	/// ÍÁµØ¹ÜÀí
+	/// åœŸåœ°ç®¡ç†
 	/// </summary>
 	public FieldManager fieldManager;
 	/// <summary>
-	/// ²Ö¿â¹ÜÀí
+	/// ä»“åº“ç®¡ç†
 	/// </summary>
 	public BarnManager barnManager;
 	/// <summary>
-	/// ³¬ÊĞ¹ÜÀí
+	/// è¶…å¸‚ç®¡ç†
 	/// </summary>
 	public MarketManager marketManager;
 	/// <summary>
-	/// Íæ¼ÒĞÅÏ¢
+	/// ç©å®¶ä¿¡æ¯
 	/// </summary>
 	public PlayerData playerData;
 	/// <summary>
-	/// Ö²ÎïÅäÖÃÊı¾İ
+	/// æ¤ç‰©é…ç½®æ•°æ®
 	/// </summary>
 	public PlantSO plantSO;
 
@@ -37,7 +37,7 @@ public class GameController : MonoBehaviour
 	}
 
 	/// <summary>
-	/// »ñÈ¡Ö²ÎïÅäÖÃÊı¾İ
+	/// è·å–æ¤ç‰©é…ç½®æ•°æ®
 	/// </summary>
 	/// <returns></returns>
 	PlantSO GetPlantSO()
@@ -48,7 +48,7 @@ public class GameController : MonoBehaviour
 	}
 
 	/// <summary>
-	/// ¼Ó½ğ±Ò
+	/// åŠ é‡‘å¸
 	/// </summary>
 	/// <param name="addCount"></param>
 	public void AddCoin(int addCount)

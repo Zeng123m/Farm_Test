@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
@@ -6,7 +6,7 @@ using UnityEngine.UI;
 using Sirenix.OdinInspector;
 
 /// <summary>
-/// ÍÁµØ½çÃæ
+/// åœŸåœ°ç•Œé¢
 /// </summary>
 public class FieldPanel : MonoBehaviour, IPanel
 {
@@ -21,7 +21,7 @@ public class FieldPanel : MonoBehaviour, IPanel
 	public List<Slider> growSliders;
 	int levelUpNeedCoin = 100;
 	public Text indexText;
-	[Title("Éı¼¶")]
+	[Title("å‡çº§")]
 	public Text levelText;
 	public Text scarecrowCountText;
 	public Text sprinklerCountText;
@@ -67,7 +67,7 @@ public class FieldPanel : MonoBehaviour, IPanel
 	}
 
 	/// <summary>
-	/// Ë¢ĞÂ½çÃæĞÅÏ¢
+	/// åˆ·æ–°ç•Œé¢ä¿¡æ¯
 	/// </summary>
 	public void RefreshPanel()
 	{
@@ -103,7 +103,7 @@ public class FieldPanel : MonoBehaviour, IPanel
 	}
 
 	/// <summary>
-	/// ÉèÖÃÖ²ÎïÉú³¤½ø¶ÈÌõ
+	/// è®¾ç½®æ¤ç‰©ç”Ÿé•¿è¿›åº¦æ¡
 	/// </summary>
 	/// <param name="values"></param>
 	public void SetGrowSlider(float[] values)
@@ -121,7 +121,7 @@ public class FieldPanel : MonoBehaviour, IPanel
 		}
 	}
 
-	#region °´¼ü
+	#region æŒ‰é”®
 
 	void OnCloseButtonClick()
 	{
@@ -154,7 +154,7 @@ public class FieldPanel : MonoBehaviour, IPanel
 		}
 		else
 		{
-			UiManager.Instance.AddGameText(string.Format("½ğ±Ò²»×ã({0}/{1})", GameController.Instance.playerData.coin.ToString(), needCoin.ToString()));
+			UiManager.Instance.AddGameText(string.Format("é‡‘å¸ä¸è¶³({0}/{1})", GameController.Instance.playerData.coin.ToString(), needCoin.ToString()));
 		}
 	}
 
@@ -169,7 +169,7 @@ public class FieldPanel : MonoBehaviour, IPanel
 		}
 		else
 		{
-			UiManager.Instance.AddGameText(string.Format("½ğ±Ò²»×ã({0}/{1})", GameController.Instance.playerData.coin.ToString(), needCoin.ToString()));
+			UiManager.Instance.AddGameText(string.Format("é‡‘å¸ä¸è¶³({0}/{1})", GameController.Instance.playerData.coin.ToString(), needCoin.ToString()));
 		}
 	}
 
@@ -184,7 +184,7 @@ public class FieldPanel : MonoBehaviour, IPanel
 		}
 		else
 		{
-			UiManager.Instance.AddGameText(string.Format("½ğ±Ò²»×ã({0}/{1})", GameController.Instance.playerData.coin.ToString(), needCoin.ToString()));
+			UiManager.Instance.AddGameText(string.Format("é‡‘å¸ä¸è¶³({0}/{1})", GameController.Instance.playerData.coin.ToString(), needCoin.ToString()));
 		}
 	}
 

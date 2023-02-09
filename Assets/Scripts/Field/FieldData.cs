@@ -1,9 +1,9 @@
-using System.Collections;
+锘縰sing System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// 土地数据
+/// 鍦熷湴鏁版嵁
 /// </summary>
 [System.Serializable]
 public class FieldData

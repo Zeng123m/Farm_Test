@@ -1,10 +1,10 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 
 /// <summary>
-/// ¼ÓÔØ³¡¾°
+/// åŠ è½½åœºæ™¯
 /// </summary>
 public class LoadScene : MonoBehaviour
 {

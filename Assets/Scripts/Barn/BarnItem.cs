@@ -1,9 +1,9 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// ²Ö¿âÎïÆ·
+/// ä»“åº“ç‰©å“
 /// </summary>
 [System.Serializable]
 public class BarnItem

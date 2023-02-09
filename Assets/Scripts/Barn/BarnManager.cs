@@ -1,16 +1,16 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// ²Ö¿â¹ÜÀí
+/// ä»“åº“ç®¡ç†
 /// </summary>
 public class BarnManager : MonoBehaviour
 {
 	public Barn barn;
 
 	/// <summary>
-	/// Ìí¼ÓÎïÆ·
+	/// æ·»åŠ ç‰©å“
 	/// </summary>
 	/// <param name="plantType"></param>
 	/// <param name="addCount"></param>
@@ -20,12 +20,12 @@ public class BarnManager : MonoBehaviour
 		return barn.TryAddItem(plantType, addCount);
 	}
 
-	#region Éı¼¶
+	#region å‡çº§
 	int maxLevel = 200;
 	int maxWindmill = 2;
 	int maxDryer = 4;
 	/// <summary>
-	/// Éı¼¶
+	/// å‡çº§
 	/// </summary>
 	public void LevelUp()
 	{
@@ -36,7 +36,7 @@ public class BarnManager : MonoBehaviour
 	}
 
 	/// <summary>
-	/// ·ç³µÉı¼¶
+	/// é£è½¦å‡çº§
 	/// </summary>
 	public void WindmillLevelUp()
 	{
@@ -47,7 +47,7 @@ public class BarnManager : MonoBehaviour
 	}
 
 	/// <summary>
-	/// ºæ¸É»úÉı¼¶
+	/// çƒ˜å¹²æœºå‡çº§
 	/// </summary>
 	public void DryerLevelUp()
 	{

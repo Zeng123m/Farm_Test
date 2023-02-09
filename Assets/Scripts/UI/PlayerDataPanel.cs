@@ -1,10 +1,10 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 /// <summary>
-/// Íæ¼ÒĞÅÏ¢
+/// ç©å®¶ä¿¡æ¯
 /// </summary>
 public class PlayerDataPanel : MonoBehaviour, IPanel
 {

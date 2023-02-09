@@ -1,9 +1,9 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// Íæ¼ÒĞÅÏ¢
+/// ç©å®¶ä¿¡æ¯
 /// </summary>
 [System.Serializable]
 public class PlayerData

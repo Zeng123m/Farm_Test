@@ -1,20 +1,20 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// ³¬ÊĞÊı¾İ
+/// è¶…å¸‚æ•°æ®
 /// </summary>
 [System.Serializable]
 public class MarketData
 {
 	public int level = 1;
 	/// <summary>
-	/// ÂÌÖ²
+	/// ç»¿æ¤
 	/// </summary>
 	public int plants;
 	/// <summary>
-	/// »õ¼Ü
+	/// è´§æ¶
 	/// </summary>
 	public int shelve;
 }

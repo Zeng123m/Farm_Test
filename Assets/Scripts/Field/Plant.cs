@@ -1,19 +1,19 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// Ö²Îï
+/// æ¤ç‰©
 /// </summary>
 public class Plant : MonoBehaviour
 {
 	/// <summary>
-	/// Ö²ÎïÀàĞÍ
+	/// æ¤ç‰©ç±»å‹
 	/// </summary>
 	public PlantType plantType;
 	PlantState plantState;
 	/// <summary>
-	/// Éú³¤×´Ì¬
+	/// ç”Ÿé•¿çŠ¶æ€
 	/// </summary>
 	public PlantState State
 	{
@@ -28,11 +28,11 @@ public class Plant : MonoBehaviour
 		}
 	}
 	/// <summary>
-	/// Ãû×Ö
+	/// åå­—
 	/// </summary>
 	public string plantName;
 	/// <summary>
-	/// ÖÖÖ²Ê±¼ä
+	/// ç§æ¤æ—¶é—´
 	/// </summary>
 	public float startTime;
 	SpriteRenderer spriteRenderer;
@@ -48,7 +48,7 @@ public class Plant : MonoBehaviour
 	}
 
 	/// <summary>
-	/// ¸Ä±äÍ¼Æ¬
+	/// æ”¹å˜å›¾ç‰‡
 	/// </summary>
 	void ChangePlantSprite()
 	{
@@ -74,39 +74,39 @@ public class Plant : MonoBehaviour
 }
 
 /// <summary>
-/// Éú³¤×´Ì¬
+/// ç”Ÿé•¿çŠ¶æ€
 /// </summary>
 public enum PlantState
 {
 	/// <summary>
-	/// ÖÖ×Ó
+	/// ç§å­
 	/// </summary>
 	Seed,
 	/// <summary>
-	/// Éú³¤
+	/// ç”Ÿé•¿
 	/// </summary>
 	Growing,
 	/// <summary>
-	/// ³ÉÊì
+	/// æˆç†Ÿ
 	/// </summary>
 	ripe
 }
 
 /// <summary>
-/// Ö²ÎïÀàĞÍ
+/// æ¤ç‰©ç±»å‹
 /// </summary>
 public enum PlantType
 {
 	/// <summary>
-	/// ·¬ÇÑ
+	/// ç•ªèŒ„
 	/// </summary>
 	Tomato,
 	/// <summary>
-	/// ÍÁ¶¹
+	/// åœŸè±†
 	/// </summary>
 	Potato,
 	/// <summary>
-	/// ÃŞ»¨
+	/// æ£‰èŠ±
 	/// </summary>
 	Cotton
 }

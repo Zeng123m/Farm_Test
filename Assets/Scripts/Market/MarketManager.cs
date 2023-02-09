@@ -1,10 +1,10 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 
 /// <summary>
-/// ³¬ÊĞ¹ÜÀí
+/// è¶…å¸‚ç®¡ç†
 /// </summary>
 public class MarketManager : MonoBehaviour
 {
@@ -19,7 +19,7 @@ public class MarketManager : MonoBehaviour
 	}
 
 	/// <summary>
-	/// ¶¨Ê±ÊÛ³ö
+	/// å®šæ—¶å”®å‡º
 	/// </summary>
 	/// <returns></returns>
 	IEnumerator AutoPurchase()
@@ -43,7 +43,7 @@ public class MarketManager : MonoBehaviour
 	}
 
 	/// <summary>
-	/// Ëæ»úÊÛ³ö
+	/// éšæœºå”®å‡º
 	/// </summary>
 	void RandomPurchase()
 	{
@@ -58,12 +58,12 @@ public class MarketManager : MonoBehaviour
 		AddItem(item.plantType, -sellCount);
 		var plantOS = GameController.Instance.plantSO;
 		string itemName = plantOS.data[item.plantType].plantName;
-		UiManager.Instance.AddGameText(string.Format("×Ô¶¯ÊÛ³ö{0}{1}¸ö£¬ÊÕÈë{2}", itemName, sellCount.ToString(), addCoin.ToString()));
+		UiManager.Instance.AddGameText(string.Format("è‡ªåŠ¨å”®å‡º{0}{1}ä¸ªï¼Œæ”¶å…¥{2}", itemName, sellCount.ToString(), addCoin.ToString()));
 		UiManager.Instance.marketPanel.RefreshPanel();
 	}
 
 	/// <summary>
-	/// Ôö¼ÓÎïÆ·
+	/// å¢åŠ ç‰©å“
 	/// </summary>
 	/// <param name="plantType"></param>
 	/// <param name="addCount"></param>
@@ -83,12 +83,12 @@ public class MarketManager : MonoBehaviour
 		customRoot.gameObject.SetActive(false);
 	}
 
-	#region Éı¼¶
+	#region å‡çº§
 	int maxLevel = 200;
 	int maxPlants = 2;
 	int maxShelve = 4;
 	/// <summary>
-	/// Éı¼¶
+	/// å‡çº§
 	/// </summary>
 	public void LevelUp()
 	{
@@ -99,7 +99,7 @@ public class MarketManager : MonoBehaviour
 	}
 
 	/// <summary>
-	/// ÂÌÖ²Éı¼¶
+	/// ç»¿æ¤å‡çº§
 	/// </summary>
 	public void PlantsLevelUp()
 	{
@@ -110,7 +110,7 @@ public class MarketManager : MonoBehaviour
 	}
 
 	/// <summary>
-	/// ºæ¸É»úÉı¼¶
+	/// çƒ˜å¹²æœºå‡çº§
 	/// </summary>
 	public void ShelveLevelUp()
 	{

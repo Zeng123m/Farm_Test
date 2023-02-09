@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
@@ -6,7 +6,7 @@ using UnityEngine.UI;
 using Sirenix.OdinInspector;
 
 /// <summary>
-/// ²Ö¿â½çÃæ
+/// ä»“åº“ç•Œé¢
 /// </summary>
 public class BarnPanel : MonoBehaviour, IPanel
 {
@@ -17,7 +17,7 @@ public class BarnPanel : MonoBehaviour, IPanel
 	List<BarnItemUI> barnItemUis = new List<BarnItemUI>();
 	BarnItemUI selectedBarnItemUI;
 	/// <summary>
-	/// ÊıÁ¿»¬¿é
+	/// æ•°é‡æ»‘å—
 	/// </summary>
 	public Slider sellCountSlider;
 	public Text sellCountText;
@@ -27,14 +27,14 @@ public class BarnPanel : MonoBehaviour, IPanel
 	int levelUpNeedCoin = 100;
 	PlantSO PlantSO { get { return GameController.Instance.plantSO; } }
 
-	[Title("Éı¼¶")]
+	[Title("å‡çº§")]
 	public Text levelText;
 	/// <summary>
-	/// ·ç³µ
+	/// é£è½¦
 	/// </summary>
 	public Text windmillCountText;
 	/// <summary>
-	/// ºæ¸É»ú
+	/// çƒ˜å¹²æœº
 	/// </summary>
 	public Text dryerCountText;
 	public Button levelUpButton;
@@ -64,7 +64,7 @@ public class BarnPanel : MonoBehaviour, IPanel
 	}
 
 	/// <summary>
-	/// Ë¢ĞÂ½çÃæ
+	/// åˆ·æ–°ç•Œé¢
 	/// </summary>
 	public void RefreshPanel()
 	{
@@ -138,9 +138,9 @@ public class BarnPanel : MonoBehaviour, IPanel
 		RefreshPanel();
 	}
 
-	#region °´¼ü
+	#region æŒ‰é”®
 	/// <summary>
-	/// ³öÊÛ
+	/// å‡ºå”®
 	/// </summary>
 	void OnSellButtonClick()
 	{
@@ -150,11 +150,11 @@ public class BarnPanel : MonoBehaviour, IPanel
 		RefreshPanel();
 		var data = GameController.Instance.plantSO;
 		var plantName = data.data[plantType].plantName;
-		UiManager.Instance.AddGameText(string.Format("{0}¸ö{1}×ªÒÆµ½³¬ÊĞ", sellCount, plantName));
+		UiManager.Instance.AddGameText(string.Format("{0}ä¸ª{1}è½¬ç§»åˆ°è¶…å¸‚", sellCount, plantName));
 	}
 
 	/// <summary>
-	/// Éı¼¶
+	/// å‡çº§
 	/// </summary>
 	void OnLevelUpButtonClick()
 	{
@@ -167,12 +167,12 @@ public class BarnPanel : MonoBehaviour, IPanel
 		}
 		else
 		{
-			UiManager.Instance.AddGameText(string.Format("½ğ±Ò²»×ã({0}/{1})", GameController.Instance.playerData.coin.ToString(), needCoin.ToString()));
+			UiManager.Instance.AddGameText(string.Format("é‡‘å¸ä¸è¶³({0}/{1})", GameController.Instance.playerData.coin.ToString(), needCoin.ToString()));
 		}
 	}
 
 	/// <summary>
-	/// ·ç³µÉı¼¶
+	/// é£è½¦å‡çº§
 	/// </summary>
 	void OnWindmillLevelUpButtonClick()
 	{
@@ -185,12 +185,12 @@ public class BarnPanel : MonoBehaviour, IPanel
 		}
 		else
 		{
-			UiManager.Instance.AddGameText(string.Format("½ğ±Ò²»×ã({0}/{1})", GameController.Instance.playerData.coin.ToString(), needCoin.ToString()));
+			UiManager.Instance.AddGameText(string.Format("é‡‘å¸ä¸è¶³({0}/{1})", GameController.Instance.playerData.coin.ToString(), needCoin.ToString()));
 		}
 	}
 
 	/// <summary>
-	/// ºæ¸É»úÉı¼¶
+	/// çƒ˜å¹²æœºå‡çº§
 	/// </summary>
 	void OnDryerLevelUpButtonClick()
 	{
@@ -203,7 +203,7 @@ public class BarnPanel : MonoBehaviour, IPanel
 		}
 		else
 		{
-			UiManager.Instance.AddGameText(string.Format("½ğ±Ò²»×ã({0}/{1})", GameController.Instance.playerData.coin.ToString(), needCoin.ToString()));
+			UiManager.Instance.AddGameText(string.Format("é‡‘å¸ä¸è¶³({0}/{1})", GameController.Instance.playerData.coin.ToString(), needCoin.ToString()));
 		}
 	}
 	#endregion

@@ -1,10 +1,10 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 
 /// <summary>
-/// ÍÁµØ¹ÜÀí
+/// åœŸåœ°ç®¡ç†
 /// </summary>
 public class FieldManager : MonoBehaviour
 {
@@ -34,7 +34,7 @@ public class FieldManager : MonoBehaviour
 
 
 	/// <summary>
-	/// ¼ì²éÖ²ÎïÉú³¤
+	/// æ£€æŸ¥æ¤ç‰©ç”Ÿé•¿
 	/// </summary>
 	/// <returns></returns>
 	IEnumerator AtuoCheckFieldPlant()
@@ -49,7 +49,7 @@ public class FieldManager : MonoBehaviour
 	}
 
 	/// <summary>
-	/// ¼ì²éÖ²ÎïÉú³¤
+	/// æ£€æŸ¥æ¤ç‰©ç”Ÿé•¿
 	/// </summary>
 	public void CheckFieldPlantGrow()
 	{
@@ -61,7 +61,7 @@ public class FieldManager : MonoBehaviour
 	}
 
 	/// <summary>
-	/// Ñ¡Ôñµ±Ç°ÍÁµØ
+	/// é€‰æ‹©å½“å‰åœŸåœ°
 	/// </summary>
 	/// <param name="field"></param>
 	public void SelectField(Field field)
@@ -79,7 +79,7 @@ public class FieldManager : MonoBehaviour
 	}
 
 	/// <summary>
-	/// ÉèÖÃÍÁµØÖ²Îï
+	/// è®¾ç½®åœŸåœ°æ¤ç‰©
 	/// </summary>
 	/// <param name="plantType"></param>
 	public void SetPlant(PlantType plantType)

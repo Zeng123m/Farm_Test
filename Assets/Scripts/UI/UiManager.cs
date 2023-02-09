@@ -1,32 +1,32 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using System.Text;
 using UnityEngine;
 using UnityEngine.UI;
 
 /// <summary>
-/// UI¹ÜÀí
+/// UIç®¡ç†
 /// </summary>
 public class UiManager : MonoBehaviour
 {
 	public static UiManager Instance;
 	/// <summary>
-	/// ÍÁµØ½çÃæ
+	/// åœŸåœ°ç•Œé¢
 	/// </summary>
 	public FieldPanel fieldPanel;
 	/// <summary>
-	/// ²Ö¿â½çÃæ
+	/// ä»“åº“ç•Œé¢
 	/// </summary>
 	public BarnPanel barnPanel;
 	/// <summary>
-	/// ³¬ÊĞ½çÃæ
+	/// è¶…å¸‚ç•Œé¢
 	/// </summary>
 	public MarketPanel marketPanel;
 	/// <summary>
-	/// Íæ¼ÒĞÅÏ¢
+	/// ç©å®¶ä¿¡æ¯
 	/// </summary>
 	public PlayerDataPanel playerDataPanel;
-	//µ±Ç°½çÃæ
+	//å½“å‰ç•Œé¢
 	public IPanel curPanel;
 	public Button fieldButton;
 	public Button barnButton;
@@ -50,14 +50,14 @@ public class UiManager : MonoBehaviour
 
 	#region GameText
 	/// <summary>
-	/// ÓÎÏ·ÄÚLOGÎÄ×Ö
+	/// æ¸¸æˆå†…LOGæ–‡å­—
 	/// </summary>
 	public Text gameText;
 	List<string> gameTextStr = new List<string>();
 	StringBuilder stringBuilder = new StringBuilder();
 	public int GameTextLine = 9;
 	/// <summary>
-	/// Ìí¼ÓÓÎÏ·ÄÚÎÄ×Ö
+	/// æ·»åŠ æ¸¸æˆå†…æ–‡å­—
 	/// </summary>
 	/// <param name="text"></param>
 	public void AddGameText(string text)

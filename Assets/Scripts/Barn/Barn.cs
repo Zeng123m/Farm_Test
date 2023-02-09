@@ -1,9 +1,9 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// ²Ö¿â
+/// ä»“åº“
 /// </summary>
 [System.Serializable]
 public class Barn
@@ -12,7 +12,7 @@ public class Barn
 	public BarnData data;
 
 	/// <summary>
-	/// »ñÈ¡×î´óÈİ»ı
+	/// è·å–æœ€å¤§å®¹ç§¯
 	/// </summary>
 	/// <returns></returns>
 	public int GetMaxCount()
@@ -21,7 +21,7 @@ public class Barn
 	}
 
 	/// <summary>
-	/// Ìí¼ÓÎïÆ·
+	/// æ·»åŠ ç‰©å“
 	/// </summary>
 	/// <param name="plantType"></param>
 	/// <param name="addCount"></param>
@@ -70,7 +70,7 @@ public class Barn
 	}
 
 	/// <summary>
-	/// ÒÆ³ıÎïÆ·
+	/// ç§»é™¤ç‰©å“
 	/// </summary>
 	/// <param name="plantType"></param>
 	/// <param name="removeCount"></param>
